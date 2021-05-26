@@ -122,8 +122,8 @@ function sandmal.load_syntax()
     Tabline = {fg=sandmal.base6,bg=sandmal.base2};
     TabLineFill = {style=sandmal.none};
     TabLineSel = {fg=sandmal.fg,bg=sandmal.blue};
-    StatusLine = {fg=sandmal.base8,bg=sandmal.base2,style=sandmal.none};
-    StatusLineNC = {fg=sandmal.grey,bg=sandmal.base2,style=sandmal.none};
+    StatusLine = {fg=sandmal.base8,bg=sandmal.none,style=sandmal.none};
+    StatusLineNC = {fg=sandmal.grey,bg=sandmal.none,style=sandmal.none};
     SpellBad = {fg=sandmal.red,bg=sandmal.none,style='undercurl'};
     SpellCap = {fg=sandmal.blue,bg=sandmal.none,style='undercurl'};
     SpellLocal = {fg=sandmal.cyan,bg=sandmal.none,style='undercurl'};
