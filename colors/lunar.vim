@@ -1,10 +1,13 @@
+" Maintainer: Christian Chiarulli <chrisatmachine@gmail.com>
+
+set background=dark
 hi clear
 if exists('syntax_on')
   syntax reset
 endif
-let g:colors_name='sandmal'
+let g:colors_name='lunar'
 
-hi Normal guifg=#abb2bf ctermfg=249 guibg=#232731 ctermbg=235 gui=NONE cterm=NONE
+hi Normal guifg=#abb2bf ctermfg=249 guibg=NONE ctermbg=235 gui=NONE cterm=NONE
 hi Comment guifg=#4c566a ctermfg=240 guibg=NONE ctermbg=NONE gui=italic cterm=italic
 hi Constant guifg=#e7cb93 ctermfg=186 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi String guifg=#a3be8c ctermfg=144 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
